@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Cyclop SDK (Empty Sample)</string>
+    <string name="preprocessing">Preprocessing:</string>
+    <string name="hello">Hello, welcome to the Cyclop SDK!</string>
+    <string name="button_text">Camera</string>
+
+</resources>
