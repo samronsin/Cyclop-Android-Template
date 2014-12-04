@@ -106,10 +106,10 @@ class ColorFloatImage extends Image {
         for(c = 0; c < 3; c++)
             for(x = 0; x < nx; x++){
                 tmp_x = x / zx;
-                ax = tmp_x - (int)tmp_x;
+                ax = 1 - tmp_x - (int)tmp_x;
                 for(y = 0; y < ny; y++){
                     tmp_y = y / zy ;
-                    ay = tmp_y - (int)tmp_y;
+                    ay = 1 - tmp_y - (int)tmp_y;
                     tmp[c][x][y] =	ax * ay * floats[c][(int)tmp_x][(int)tmp_y]
                                     +	(1 - ax) * ay * (tmp_x + 1 < nx0 ? floats[c][(int)tmp_x + 1][(int)tmp_y] : floats[c][(int)tmp_x - 1][(int)tmp_y])
                                     +	ax * (1 - ay) * (tmp_y + 1 < ny0 ? floats[c][(int)tmp_x][(int)tmp_y + 1] : floats[c][(int)tmp_x][(int)tmp_y - 1])
