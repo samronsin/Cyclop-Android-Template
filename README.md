@@ -22,5 +22,7 @@ This project is open source.
 Have fun!
 
 Samuel O. Ronsin | Cyclop
+
 samuel@cyclop.io
+
 http://cyclop.io
