@@ -8,7 +8,7 @@ to showcase their work on Android gear, without getting too much into Android de
 
 The "Cyclop-Android-Template" GitHub repository contains the main building blocks 
 of a basic image processing app: java files, resources and the manifest. 
-To be able to use them, create a new Android project (e.g. via Android Studio) and 
+To be able to use them, create a new Android project (e.g. via Android Studio http://developer.android.com/sdk/index.html) and 
 import or copy/paste these building blocks (*.java, /res/, AndroidManifest.xml) into the appropriate folders.
 Once you're ready to go, you should only modify the "YourLab" class
 and make the process() method modify the image as you wish.
